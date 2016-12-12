@@ -32,7 +32,9 @@
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "nagu-validates": "^0.1.0",
+    "ynu-ws-client": "^0.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
@@ -50,6 +52,7 @@
     "eslint-plugin-import": "^1.16.0",
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^3.1.2",
+    "node-mocks-http": "^1.5.5",
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
     "sinon": "^2.0.0-pre.3"

@@ -13,7 +13,7 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import { host, port } from './config';
-import route from './route';
+import getZzjg from './zzjg';
 
 const app = express();
 
@@ -31,7 +31,7 @@ app.use(morgan('dev'));
 /*
 注册API
 */
-app.use('/route', route);
+app.get('/zzjg', getZzjg());
 
 app.listen(port, () => {
   console.log(`The server is running at http://${host}/`);
