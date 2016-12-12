@@ -12,6 +12,7 @@ import 'babel-polyfill';
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
+import { host, port } from './config';
 import route from './route';
 
 const app = express();
