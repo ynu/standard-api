@@ -1,7 +1,9 @@
-FROM nagucc/babel-starter-kit:1.2.0
+FROM node:6.9
 
 ADD package.json /app/
 ADD src /app/src
+ADD tools /app/tools
+ADD LICENSE.txt /app/
 WORKDIR /app
 RUN npm install
 EXPOSE 3000
