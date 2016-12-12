@@ -1,0 +1,19 @@
+{
+  "name": "standard-api",
+  "version": "1.0.0",
+  "description": "api for standards",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynu/standard-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynu/standard-api/issues"
+  },
+  "homepage": "https://github.com/ynu/standard-api#readme"
+}
